@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Intense Fitness Gallery - View Our Facilities">
+    <title>Intense Fitness - Gallery</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-dumbbell"></i>
+                <img src="images/Logo.jpg" alt="Logo" height="40" width="120">
+                <!-- <span>INTENSE FITNESS</span> -->
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="header-overlay"></div>
+        <div class="header-content">
+            <h1 class="fade-in-up">Gallery</h1>
+            <p class="fade-in-up delay-1">Explore Our Facilities</p>
+        </div>
+    </section>
+
+    <!-- Gallery Filter -->
+    <section class="gallery-section">
+        <div class="container">
+            <div class="gallery-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="equipment">Equipment</button>
+                <button class="filter-btn" data-filter="classes">Classes</button>
+                <button class="filter-btn" data-filter="facilities">Facilities</button>
+                <!-- <button class="filter-btn" data-filter="members">Members</button> -->
+            </div>
+
+            <div class="gallery-grid">
+                <!-- Equipment Images -->
+                <div class="gallery-item" data-category="equipment">
+                    <div id="gallery-weight" class="gallery-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-dumbbell"></i>
+                            <p>Weight Training Area</p>
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Free Weights</h3>
+                            <p>Complete range of dumbbells and barbells</p>
+                            <!-- <button class="view-btn"><i class="fas fa-search-plus"></i></button> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="equipment">
+                    <div id="gallery-cable" class="gallery-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-weight"></i>
+                            <p>Strength Equipment</p>
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Gym Machines</h3>
+                            <p>State-of-the-art cable and pulley systems</p>
+                            <!-- <button class="view-btn"><i class="fas fa-search-plus"></i></button> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="equipment">
+                    <div id="gallery-cardio" class="gallery-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-running"></i>
+                            <p>Cardio Zone</p>
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Treadmills</h3>
+                            <p>High-tech cardio equipment</p>
+                            <!-- <button class="view-btn"><i class="fas fa-search-plus"></i></button> -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Classes Images -->
+                <div class="gallery-item" data-category="classes">
+                    <div id="gallery-group" class="gallery-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-users"></i>
+                            <p>Group Training</p>
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>HIIT Class</h3>
+                            <p>High-intensity interval training sessions</p>
+                            <!-- <button class="view-btn"><i class="fas fa-search-plus"></i></button> -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="gallery-item" data-category="classes">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-spa"></i>
+                            <p>Yoga Studio</p>
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Yoga Classes</h3>
+                            <p>Peaceful studio for yoga and meditation</p>
+                            <button class="view-btn"><i class="fas fa-search-plus"></i></button>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- <div class="gallery-item" data-category="classes">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-boxing-glove"></i>
+                            <p>Boxing Area</p>
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Boxing Training</h3>
+                            <p>Professional boxing and martial arts area</p>
+                            <button class="view-btn"><i class="fas fa-search-plus"></i></button>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- Facilities Images -->
+                <div class="gallery-item" data-category="facilities">
+                    <div id="gallery-locker" class="gallery-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-shower"></i>
+                            <p>Locker Rooms</p>
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Modern Facilities</h3>
+                            <p>Clean and spacious locker rooms</p>
+                            <!-- <button class="view-btn"><i class="fas fa-search-plus"></i></button> -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="gallery-item" data-category="facilities">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-coffee"></i>
+                            <p>Lounge Area</p>
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Relaxation Zone</h3>
+                            <p>Comfortable lounge and juice bar</p>
+                            <button class="view-btn"><i class="fas fa-search-plus"></i></button>
+                        </div>
+                    </div>
+                </div> -->
+
+                <div class="gallery-item" data-category="facilities">
+                    <div id="gallery-entry" class="gallery-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-building"></i>
+                            <p>Gym space</p>
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Reception Area</h3>
+                            <p>Welcoming entrance and reception</p>
+                            <!-- <button class="view-btn"><i class="fas fa-search-plus"></i></button> -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Members Images -->
+                <!-- <div class="gallery-item" data-category="members">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-user-friends"></i>
+                            <p>Training Sessions</p>
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Personal Training</h3>
+                            <p>One-on-one coaching sessions</p>
+                            <button class="view-btn"><i class="fas fa-search-plus"></i></button>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- <div class="gallery-item" data-category="members">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-trophy"></i>
+                            <p>Success Stories</p>
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Member Achievements</h3>
+                            <p>Celebrating our members' success</p>
+                            <button class="view-btn"><i class="fas fa-search-plus"></i></button>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- <div class="gallery-item" data-category="members">
+                    <div class="gallery-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-people-group"></i>
+                            <p>Community Events</p>
+                        </div>
+                        <div class="gallery-overlay">
+                            <h3>Fitness Events</h3>
+                            <p>Community challenges and competitions</p>
+                            <button class="view-btn"><i class="fas fa-search-plus"></i></button>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Image Modal -->
+    <div class="modal" id="imageModal">
+        <span class="close-modal">&times;</span>
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="modal-placeholder">
+                    <img src="./images/Body.jpg" alt="img"/>
+                    <i class="fas fa-image"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>INTENSE FITNESS</h3>
+                    <p>Transform your body, transform your life with our professional training programs.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <!-- <a href="#"><i class="fab fa-twitter"></i></a> -->
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> No.6/1, 1st Floor, Opposite Teresian College, T N Pura Road, Siddarthanagar-570011</li>
+                        <li><i class="fas fa-phone"></i> 0821-2443703</li>
+                        <li><i class="fas fa-envelope"></i> intensefitness41@gmail.com </li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Opening Hours</h4>
+                    <ul>
+                        <li>Monday - Saturday: 5AM - 10PM</li>
+                        <li> Sunday: 7AM - 7PM</li>
+                        <!-- <li>24/7 Access Available</li> -->
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Intense Fitness. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+

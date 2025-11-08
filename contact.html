@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Contact Intense Fitness - Get In Touch" />
+    <title>Intense Fitness - Contact</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">
+          <i class="fas fa-dumbbell"></i>
+          <img src="images/Logo.jpg" alt="Logo" height="40" width="120">
+          <!-- <span>INTENSE FITNESS</span> -->
+        </div>
+        <ul class="nav-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+          <li><a href="about.html">About Us</a></li>
+        </ul>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section id="contact-header" class="page-header">
+      <div class="header-overlay"></div>
+      <div class="header-content">
+        <h1 class="fade-in-up">Contact Us</h1>
+        <p class="fade-in-up delay-1">Get in Touch With Us</p>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+      <div class="container">
+        <div class="contact-wrapper">
+          <div class="contact-info">
+            <h2>Get In Touch</h2>
+            <p>
+              Have a question or ready to start your fitness journey? We'd love
+              to hear from you!
+            </p>
+
+            <div class="info-items">
+              <div class="info-item">
+                <div class="info-icon">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="info-text">
+                  <h4>Address</h4>
+                  <p>
+                    # 6,1st floor bannur road<br />
+                    (opp to teresian collage) mysore 11
+                  </p>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-icon">
+                  <i class="fas fa-phone"></i>
+                </div>
+                <div class="info-text">
+                  <h4>Phone</h4>
+                  <p>9901994703<br/> 0821-2443703 </p>
+                </div>
+              </div>
+
+            <div class="info-items">
+              <div class="info-item">
+                <div class="info-icon">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="info-text">
+                  <h4>Branch Address</h4>
+                  <p>
+                    17, C Block, AYANK TOWERS, 80 Feet Rd, near Royal Concorde School,3rd Stage, Vijayanagar, Mysuru, Karnataka 570030
+                  </p>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-icon">
+                  <i class="fas fa-phone"></i>
+                </div>
+                <div class="info-text">
+                  <h4>Branch Phone</h4>
+                  <p>8618210676<br/> 0821-2345703 </p>
+                </div>
+              </div>
+
+              
+              <div class="info-item">
+                <div class="info-icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="info-text">
+                  <h4>Email</h4>
+                  <p>intensefitness41@gmail.com </p>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-icon">
+                  <i class="fas fa-clock"></i>
+                </div>
+                <div class="info-text">
+                  <h4>Opening Hours</h4>
+                  <p>Mon - Sun: 5AM - 11PM<br /> Sun: 6AM - 10PM</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="social-contact">
+              <h4>Follow Us</h4>
+              <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <!-- <a href="#"><i class="fab fa-twitter"></i></a> -->
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <!-- <a href="#"><i class="fab fa-tiktok"></i></a> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form-wrapper">
+            <h2>Send Us A Message</h2>
+            <form class="contact-form" id="contactForm">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="firstName">First Name *</label>
+                  <input type="text" id="firstName" name="firstName" required />
+                </div>
+                <div class="form-group">
+                  <label for="lastName">Last Name *</label>
+                  <input type="text" id="lastName" name="lastName" required />
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="email">Email *</label>
+                  <input type="email" id="email" name="email" required />
+                </div>
+                <div class="form-group">
+                  <label for="phone">Phone</label>
+                  <input type="tel" id="phone" name="phone" />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="subject">Subject *</label>
+                <select id="subject" name="subject" required>
+                  <option value="">Select a subject</option>
+                  <option value="membership">Membership Inquiry</option>
+                  <option value="personal-training">Personal Training</option>
+                  <option value="classes">Group Classes</option>
+                  <option value="facilities">Facility Tour</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message *</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="6"
+                  required
+                ></textarea>
+              </div>
+
+              <button type="submit" class="submit-btn">
+                <span>Send Message</span>
+                <i class="fas fa-paper-plane"></i>
+              </button>
+            </form>
+            <div class="form-message" id="formMessage"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Map Section -->
+    <!-- <section class="map-section">
+      <div class="map-placeholder">
+        <i class="fas fa-map-marked-alt"></i>
+        <p>Map Location</p>
+      </div>
+    </section> -->
+
+    <!-- FAQ Section -->
+    <!-- <section class="faq-section">
+      <div class="container">
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <div class="faq-wrapper">
+          <div class="faq-item">
+            <div class="faq-question">
+              <h4>What are your membership options?</h4>
+              <i class="fas fa-plus"></i>
+            </div>
+            <div class="faq-answer">
+              <p>
+                We offer monthly, quarterly, and annual membership plans. Each
+                plan includes access to all equipment, group classes, and
+                facilities. Premium plans include personal training sessions.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              <h4>Do you offer personal training?</h4>
+              <i class="fas fa-plus"></i>
+            </div>
+            <div class="faq-answer">
+              <p>
+                Yes! We have certified personal trainers available for
+                one-on-one sessions. Training packages can be customized to your
+                goals and schedule.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              <h4>Can I try a class before joining?</h4>
+              <i class="fas fa-plus"></i>
+            </div>
+            <div class="faq-answer">
+              <p>
+                Absolutely! We offer a free trial day where you can experience
+                our facilities and attend any group class. Contact us to
+                schedule your visit.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              <h4>What should I bring to my first visit?</h4>
+              <i class="fas fa-plus"></i>
+            </div>
+            <div class="faq-answer">
+              <p>
+                Bring comfortable workout clothes, athletic shoes, a water
+                bottle, and a towel. We provide lockers and shower facilities
+                for your convenience.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <div class="faq-question">
+              <h4>Do you have parking available?</h4>
+              <i class="fas fa-plus"></i>
+            </div>
+            <div class="faq-answer">
+              <p>
+                Yes, we have free parking available for all members. There's
+                also convenient street parking nearby.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>INTENSE FITNESS</h3>
+            <p>
+              Transform your body, transform your life with our professional
+              training programs.
+            </p>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <!-- <a href="#"><i class="fab fa-twitter"></i></a> -->
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+          <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Contact Info</h4>
+            <ul>
+              <li>
+                <i class="fas fa-map-marker-alt"></i> No.6/1, 1st Floor,
+                Opposite Teresian College, T N Pura Road, Siddarthanagar-570011
+              </li>
+              <li><i class="fas fa-phone"></i> 9972014703</li>
+              <li><i class="fas fa-envelope"></i> info@intensefitness.com</li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Opening Hours</h4>
+            <ul>
+              <li>Monday - Saturday: 7AM - 10PM</li>
+              <li> Sunday: 7AM - 7PM</li>
+              <!-- <li>24/7 Access Available</li> -->
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Intense Fitness. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
